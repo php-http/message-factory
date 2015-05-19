@@ -17,15 +17,11 @@ namespace Http\Message;
 interface MessageFactoryAware
 {
     /**
-     * Returns a Message Factory
-     *
      * @return MessageFactory
      */
     public function getMessageFactory();
 
     /**
-     * Sets a Message Factory
-     *
      * @param MessageFactory $messageFactory
      */
     public function setMessageFactory(MessageFactory $messageFactory);
