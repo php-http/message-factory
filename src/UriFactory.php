@@ -27,5 +27,5 @@ interface UriFactory
      *
      * @throws \InvalidArgumentException If the URI is invalid
      */
-    public function createUri($uri = null);
+    public function createUri($uri);
 }
