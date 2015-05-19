@@ -27,7 +27,7 @@ interface MessageFactory
      * @param string                               $method
      * @param string|UriInterface                  $uri
      * @param string                               $protocolVersion
-     * @param string[]                             $headers
+     * @param array                                $headers
      * @param resource|string|StreamInterface|null $body
      *
      * @return RequestInterface
@@ -46,7 +46,7 @@ interface MessageFactory
      * @param integer                              $statusCode
      * @param string|null                          $reasonPhrase
      * @param string                               $protocolVersion
-     * @param string[]                             $headers
+     * @param array                                $headers
      * @param resource|string|StreamInterface|null $body
      *
      * @return ResponseInterface
