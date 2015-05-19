@@ -53,7 +53,7 @@ interface MessageFactory
      */
     public function createResponse(
         $statusCode = 200,
-        $reasonPhrase = null
+        $reasonPhrase = null,
         $protocolVersion = '1.1',
         array $headers = [],
         $body = null
