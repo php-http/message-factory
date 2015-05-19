@@ -18,7 +18,7 @@ use Psr\Http\Message\UriInterface;
  *
  * @author Márk Sági-Kazár <mark.sagikazar@gmail.com>
  */
-interface ClientFactory extends MessageFactory, StreamFactory, UriFactory
+interface ClientContextFactory extends MessageFactory, StreamFactory, UriFactory
 {
 
 }
