@@ -16,6 +16,11 @@ $ composer require php-http/message-factory
 ```
 
 
+## Rationale
+
+The FIG was pretty straightforward by NOT putting any construction logic into PSR-7. However there is a need for that. This does not try to be the "de facto" way to do message construction, but tries to provide an easy way to construct messages by following already existing patterns. (For example: `MessageFactory` accepts parameters in the order they appear in a request/response: method, uri, protocol version, headers, body (in case of a request)).
+
+
 ## Usage
 
 This package provides interfaces for PSR-7 factories including:
