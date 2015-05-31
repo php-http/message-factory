@@ -14,26 +14,26 @@ namespace Http\Message;
 /**
  * @author Márk Sági-Kazár <mark.sagikazar@gmail.com>
  */
-interface UriFactoryHelper
+trait MessageFactoryAwareTemplate
 {
     /**
-     * @var UriFactory
+     * @var MessageFactory
      */
-    protected $uriFactory;
+    protected $messageFactory;
 
     /**
      * {@inheritdoc}
      */
-    public function getUriFactory()
+    public function getMessageFactory()
     {
-        return $this->uriFactory;
+        return $this->messageFactory;
     }
 
     /**
      * {@inheritdoc}
      */
-    public function setUriFactory(UriFactory $uriFactory)
+    public function setMessageFactory(MessageFactory $messageFactory)
     {
-        $this->uriFactory = $uriFactory;
+        $this->messageFactory = $messageFactory;
     }
 }

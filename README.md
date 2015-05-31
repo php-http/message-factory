@@ -47,7 +47,7 @@ class MyFactory implements SomeFactory
 ```
 
 
-### Factory awares and helpers
+### Factory awares and templates
 
 For each factory there is a helper interface and trait to ease injecting them into other objects (such as HTTP clients).
 
@@ -55,11 +55,11 @@ An example:
 
 ``` php
 use Http\Message\SomeFactoryAware;
-use Http\Message\SomeFactoryHelper;
+use Http\Message\SomeFactoryAwareTemplate;
 
 class HttpClient implements SomeFactoryAware
 {
-    use SomeFactoryHelper;
+    use SomeFactoryAwareTemplate;
 }
 
 $client = new HttpClient();

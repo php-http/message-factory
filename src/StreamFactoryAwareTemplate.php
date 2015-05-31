@@ -14,26 +14,26 @@ namespace Http\Message;
 /**
  * @author Márk Sági-Kazár <mark.sagikazar@gmail.com>
  */
-interface MessageFactoryHelper
+trait StreamFactoryAwareTemplate
 {
     /**
-     * @var MessageFactory
+     * @var StreamFactory
      */
-    protected $messageFactory;
+    protected $streamFactory;
 
     /**
      * {@inheritdoc}
      */
-    public function getMessageFactory()
+    public function getStreamFactory()
     {
-        return $this->messageFactory;
+        return $this->streamFactory;
     }
 
     /**
      * {@inheritdoc}
      */
-    public function setMessageFactory(MessageFactory $messageFactory)
+    public function setStreamFactory(StreamFactory $streamFactory)
     {
-        $this->messageFactory = $messageFactory;
+        $this->streamFactory = $streamFactory;
     }
 }
