@@ -25,11 +25,12 @@ The FIG was pretty straightforward by NOT putting any construction logic into PS
 
 This package provides interfaces for PSR-7 factories including:
 
-- `MessageFactory` - WIP
-- `ServerRequestFactory` - WIP
-- `StreamFactory` - WIP
-- `UploadedFileFactory` - WIP
-- `UriFactory` - WIP
+- `MessageFactory`
+- `ServerRequestFactory` - WIP (PRs welcome)
+- `StreamFactory`
+- `UploadedFileFactory` - WIP (PRs welcome)
+- `UriFactory`
+- `ClientContextFactory` (Combines `MessageFactory`, `StreamFactory` and `UriFactory`)
 
 
 A virtual package ([php-http/message-factory-implementation](https://packagist.org/providers/php-http/message-factory-implementation)) MAY be introduced which MUST be versioned together with this package.
