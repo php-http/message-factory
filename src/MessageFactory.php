@@ -26,18 +26,18 @@ interface MessageFactory
      *
      * @param string                               $method
      * @param string|UriInterface                  $uri
-     * @param string                               $protocolVersion
      * @param array                                $headers
      * @param resource|string|StreamInterface|null $body
+     * @param string                               $protocolVersion
      *
      * @return RequestInterface
      */
     public function createRequest(
         $method,
         $uri,
-        $protocolVersion = '1.1',
         array $headers = [],
-        $body = null
+        $body = null,
+        $protocolVersion = '1.1'
     );
 
     /**
@@ -45,17 +45,17 @@ interface MessageFactory
      *
      * @param integer                              $statusCode
      * @param string|null                          $reasonPhrase
-     * @param string                               $protocolVersion
      * @param array                                $headers
      * @param resource|string|StreamInterface|null $body
+     * @param string                               $protocolVersion
      *
      * @return ResponseInterface
      */
     public function createResponse(
         $statusCode = 200,
         $reasonPhrase = null,
-        $protocolVersion = '1.1',
         array $headers = [],
-        $body = null
+        $body = null,
+        $protocolVersion = '1.1'
     );
 }
