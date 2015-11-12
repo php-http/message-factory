@@ -2,3 +2,4 @@
 .gitattributes   export-ignore
 .gitignore       export-ignore
 CONTRIBUTING.md  export-ignore
+CONDUCT.md       export-ignore
