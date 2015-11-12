@@ -8,12 +8,14 @@ use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\StreamInterface;
 
 /**
+ * Factory for PSR-7 Request and Response.
+ *
  * @author Márk Sági-Kazár <mark.sagikazar@gmail.com>
  */
 interface MessageFactory
 {
     /**
-     * Creates a new request
+     * Creates a new PSR-7 request.
      *
      * @param string                               $method
      * @param string|UriInterface                  $uri
@@ -32,7 +34,7 @@ interface MessageFactory
     );
 
     /**
-     * Creates a response
+     * Creates a new PSR-7 response.
      *
      * @param integer                              $statusCode
      * @param string|null                          $reasonPhrase
