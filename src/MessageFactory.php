@@ -2,10 +2,6 @@
 
 namespace Http\Message;
 
-use Psr\Http\Message\UriInterface;
-use Psr\Http\Message\RequestInterface;
-use Psr\Http\Message\StreamInterface;
-
 /**
  * Factory for PSR-7 Request and Response.
  *
