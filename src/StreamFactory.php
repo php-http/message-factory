@@ -19,6 +19,7 @@ interface StreamFactory
      * @return StreamInterface
      *
      * @throws \InvalidArgumentException If the stream body is invalid.
+     * @throws \RuntimeException         If cannot write to stream.
      */
     public function createStream($body = null);
 }
