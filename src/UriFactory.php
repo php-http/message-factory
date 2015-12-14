@@ -14,7 +14,7 @@ interface UriFactory
     /**
      * Creates an PSR-7 URI.
      *
-     * @param mixed $uri
+     * @param string|UriInterface $uri
      *
      * @return UriInterface
      *
