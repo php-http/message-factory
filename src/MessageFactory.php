@@ -11,24 +11,6 @@ use Psr\Http\Message\StreamInterface;
  *
  * @author Márk Sági-Kazár <mark.sagikazar@gmail.com>
  */
-interface MessageFactory extends ResponseFactory
+interface MessageFactory extends RequestFactory, ResponseFactory
 {
-    /**
-     * Creates a new PSR-7 request.
-     *
-     * @param string                               $method
-     * @param string|UriInterface                  $uri
-     * @param array                                $headers
-     * @param resource|string|StreamInterface|null $body
-     * @param string                               $protocolVersion
-     *
-     * @return RequestInterface
-     */
-    public function createRequest(
-        $method,
-        $uri,
-        array $headers = [],
-        $body = null,
-        $protocolVersion = '1.1'
-    );
 }
