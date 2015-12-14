@@ -8,26 +8,28 @@ use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\StreamInterface;
 
 /**
- * Factory for PSR-7 Request and Response.
+ * Factory for PSR-7 Response.
+ *
+ * This factory contract can be reused in Message and Server Message factories.
  *
  * @author Márk Sági-Kazár <mark.sagikazar@gmail.com>
  */
-interface MessageFactory extends ResponseInterface
+interface ResponseFactory
 {
     /**
-     * Creates a new PSR-7 request.
+     * Creates a new PSR-7 response.
      *
-     * @param string                               $method
-     * @param string|UriInterface                  $uri
+     * @param int                                  $statusCode
+     * @param string|null                          $reasonPhrase
      * @param array                                $headers
      * @param resource|string|StreamInterface|null $body
      * @param string                               $protocolVersion
      *
-     * @return RequestInterface
+     * @return ResponseInterface
      */
-    public function createRequest(
-        $method,
-        $uri,
+    public function createResponse(
+        $statusCode = 200,
+        $reasonPhrase = null,
         array $headers = [],
         $body = null,
         $protocolVersion = '1.1'
