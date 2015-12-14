@@ -1,6 +1,14 @@
 # Change Log
 
-## 0.4.0 - UNRELEASED
+## 1.0.0-rc1 - 2015-12-14
+
+### Added
+
+- CS check
+
+### Changed
+
+- RuntimeException is thrown when the StreamFactory cannot write to the underlying stream
 
 
 ## 0.3.0 - 2015-11-16
