@@ -36,7 +36,7 @@ interface MessageFactory
     /**
      * Creates a new PSR-7 response.
      *
-     * @param integer                              $statusCode
+     * @param int                                  $statusCode
      * @param string|null                          $reasonPhrase
      * @param array                                $headers
      * @param resource|string|StreamInterface|null $body
