@@ -12,7 +12,7 @@ use Psr\Http\Message\StreamInterface;
  *
  * @author Márk Sági-Kazár <mark.sagikazar@gmail.com>
  */
-interface MessageFactory extends ResponseInterface
+interface MessageFactory extends ResponseFactory
 {
     /**
      * Creates a new PSR-7 request.
