@@ -1,4 +1,4 @@
-# HTTP Message Factory
+# PSR-7 Message Factory
 
 [![Latest Version](https://img.shields.io/github/release/php-http/message-factory.svg?style=flat-square)](https://github.com/php-http/message-factory/releases)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
