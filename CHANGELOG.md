@@ -1,6 +1,6 @@
 # Change Log
 
-## UNRELEASED
+## 1.0.0 - 2015-12-15
 
 ### Added
 
@@ -12,7 +12,7 @@
 - Message Factory extends Request and Response factories
 
 
-## 1.0.0-rc1 - 2015-12-14
+## 1.0.0-RC1 - 2015-12-14
 
 ### Added
 
