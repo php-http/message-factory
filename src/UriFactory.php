@@ -18,7 +18,7 @@ interface UriFactory
      *
      * @return UriInterface
      *
-     * @throws \InvalidArgumentException If the URI is invalid.
+     * @throws \InvalidArgumentException If the $uri argument can not be converted into a valid URI.
      */
     public function createUri($uri);
 }
