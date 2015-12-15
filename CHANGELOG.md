@@ -1,5 +1,17 @@
 # Change Log
 
+## UNRELEASED
+
+### Added
+
+- Response Factory in order to be reused in Message and Server Message factories
+- Request Factory
+
+### Changed
+
+- Message Factory extends Request and Response factories
+
+
 ## 1.0.0-rc1 - 2015-12-14
 
 ### Added
