@@ -1,5 +1,12 @@
 # Change Log
 
+## 1.0.1 - 2015-12-17
+
+### Added
+
+- Puli configuration and binding types
+
+
 ## 1.0.0 - 2015-12-15
 
 ### Added
