@@ -1,5 +1,13 @@
 # Change Log
 
+
+## 1.0.2 - 2015-12-19
+
+### Added
+
+- Request and Response factory binding types to Puli
+
+
 ## 1.0.1 - 2015-12-17
 
 ### Added
