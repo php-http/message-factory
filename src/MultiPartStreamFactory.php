@@ -12,7 +12,7 @@ use Psr\Http\Message\StreamInterface;
 interface MultiPartStreamFactory extends StreamFactory
 {
     /**
-     * creates a Multipart Stream from parameters and/or files.
+     * Creates a Multipart Stream from parameters and/or files.
      *
      * @param array $parameters
      * @param array $files
