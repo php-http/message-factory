@@ -9,7 +9,7 @@ use Psr\Http\Message\StreamInterface;
  *
  * @author Robert Schönthal <robert.schoenthal@gmail.com>
  */
-interface MultiPartStreamFactory extends StreamFactory
+interface MultiPartStreamFactory
 {
     /**
      * Creates a Multipart Stream from parameters and/or files.
