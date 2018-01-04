@@ -2,6 +2,7 @@
 
 namespace Http\Message;
 
+use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\StreamInterface;
 
@@ -22,6 +23,7 @@ interface ResponseFactory
      * @param array                                $headers
      * @param resource|string|StreamInterface|null $body
      * @param string                               $protocolVersion
+     * @param RequestInterface                     $request
      *
      * @return ResponseInterface
      */
@@ -30,6 +32,7 @@ interface ResponseFactory
         $reasonPhrase = null,
         array $headers = [],
         $body = null,
-        $protocolVersion = '1.1'
+        $protocolVersion = '1.1',
+        RequestInterface $request = null
     );
 }
