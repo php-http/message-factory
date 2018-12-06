@@ -16,6 +16,6 @@ return PhpCsFixer\Config::create()
             'syntax' => 'short',
         ],
         'no_empty_phpdoc' => true,
-        'no_superfluous_phpdoc_tags' => true,
+        //'no_superfluous_phpdoc_tags' => true,
     ])
     ->setFinder($finder);
