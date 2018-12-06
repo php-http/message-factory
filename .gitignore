@@ -1,6 +1,9 @@
-.puli/
-build/
-vendor/
-composer.lock
-phpspec.yml
-phpunit.xml
+/.php_cs
+/.php_cs.cache
+/.puli/
+/behat.yml
+/build/
+/composer.lock
+/phpspec.yml
+/phpunit.xml
+/vendor/
