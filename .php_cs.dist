@@ -6,7 +6,7 @@
  */
 $finder = PhpCsFixer\Finder::create()
     ->in('src')
-    ->in('tests')
+    //->in('tests')
 ;
 return PhpCsFixer\Config::create()
     ->setRules([
