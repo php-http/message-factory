@@ -6,6 +6,11 @@
 
 **Factory interfaces for PSR-7 HTTP Message.**
 
+## Deprecation notice
+
+This package and these PSR-7 factory interfaces are deprecated. We have succeeded with our goal of moving these
+interfaces to PHP-FIG. The new [PSR-17](https://packagist.org/packages/psr/http-factory) package is backwards compatible
+with this package. (Except for the new PSR-17 is PHP7 only.)
 
 ## Install
 
