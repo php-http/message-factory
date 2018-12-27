@@ -10,6 +10,8 @@ use Psr\Http\Message\StreamInterface;
  * Factory for PSR-7 Request.
  *
  * @author Márk Sági-Kazár <mark.sagikazar@gmail.com>
+ *
+ * @deprecated Please use PSR-17 instead.
  */
 interface RequestFactory
 {

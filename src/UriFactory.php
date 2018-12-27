@@ -8,6 +8,8 @@ use Psr\Http\Message\UriInterface;
  * Factory for PSR-7 URI.
  *
  * @author Márk Sági-Kazár <mark.sagikazar@gmail.com>
+ *
+ * @deprecated Please use PSR-17 instead.
  */
 interface UriFactory
 {

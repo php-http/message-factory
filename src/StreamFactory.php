@@ -8,6 +8,8 @@ use Psr\Http\Message\StreamInterface;
  * Factory for PSR-7 Stream.
  *
  * @author Márk Sági-Kazár <mark.sagikazar@gmail.com>
+ *
+ * @deprecated Please use PSR-17 instead.
  */
 interface StreamFactory
 {
