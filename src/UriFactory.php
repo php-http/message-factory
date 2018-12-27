@@ -9,7 +9,7 @@ use Psr\Http\Message\UriInterface;
  *
  * @author Márk Sági-Kazár <mark.sagikazar@gmail.com>
  *
- * @deprecated Please use PSR-17 instead.
+ * @deprecated Please use PSR-17 instead
  */
 interface UriFactory
 {
