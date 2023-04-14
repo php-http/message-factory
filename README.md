@@ -6,6 +6,12 @@
 
 **Factory interfaces for PSR-7 HTTP Message.**
 
+## Obsolete
+
+The PHP-HTTP factories have become obsolete with the [PSR-17](https://www.php-fig.org/psr/psr-17/) factories standard.
+All major HTTP client implementors provide [PSR-17 factories](https://packagist.org/packages/psr/http-factory).
+
+This package will remain available for the time being to not break legacy code, but we encourage everybody to move to PSR-17.
 
 ## Install
 
